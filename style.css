@@ -1,0 +1,95 @@
+body {
+	background-color: skyblue;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 50%;
+}
+.container-1 {
+    display: grid;
+    padding: 10px;
+    background-color: chocolate
+}
+.container-2 {
+    display: grid;
+    padding: 10px;
+    background-color: chartreuse;
+}
+.container-3 {
+    display: grid;
+    padding: 10px;
+    background-color: violet;
+}
+.container-4 {
+    display: grid;
+    padding: 10px;
+}
+hr {
+    border-style: none; 
+    border-top-style: dotted;
+    border-color: ghostwhite;
+    border-width:5px;
+    width: 30%;
+}
+.tb1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: ridge;
+    border-collapse: collapse;
+}
+.tb2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: fit-content;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 70%; background-color: #04AA6D;} 
+.css {width: 65%; background-color: #2196F3;} 
+.js {width: 50%; background-color: #f44336;} 
+.php {width: 45%; background-color: #e42fb0;} 
+.c {width: 70%; background-color: #808080;} 
+.python {width: 65%; background-color: #0a769a;} 
+.network {width: 60%; background-color: #f28c17;} 
+
+/*div {
+    display: grid;
+    /*margin-bottom: 0px;
+}
+thead,
+tfoot {
+    display: inline-block;
+    grid-template-columns: 50% 30%;
+    background-color: #333;
+    color: #fff;
+}
+#div1 {
+    float:left;
+    width:100px;
+    height:100px;
+    border:solid 2px red;
+    text-align:center;
+}
+#div2 {
+    float:right;
+    width:100px;
+    height:100px;
+    border:solid 2px green;
+    text-align:center;
+}*/
